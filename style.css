@@ -114,14 +114,14 @@ h3 {
 }
 
 
-.procesos {
+.ofertas {
     width: 100%;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
     margin-bottom: 50px;
 }
 
-.procesos h1 {
+.ofertas h1 {
     color:#2e4757;
     font-size: 46px;
     font-family: 'Oswald', sans-serif;
@@ -131,23 +131,38 @@ h3 {
 .contenido {
     margin-top: 5%;
     display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     justify-content: space-between;
 }
 
 .flex-element {
     background-color: #2e4757;
     border-radius: 10px;
-    height: 300px;
-    flex-basis: 30%;
     color: white;
     font-family: 'Montserrat', sans-serif;
+}
+
+ .empresa .flex-element {
+    flex-basis: 45%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    padding-bottom: 30px;
+    text-align: center;
+ }
+
+ .cliente .flex-element {
+    height: 150px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
     justify-content: center;
     align-items: center;
-}
+ }
+
 
 
 .flex-element img {
@@ -158,6 +173,29 @@ h3 {
 
 .flex-element h3 {
     font-family: 'Oswald', sans-serif;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.images img {
+    height: 50px;
+    width: 50px;
+    border-radius: 0%;
 }
 
 footer {
@@ -180,14 +218,22 @@ footer p {
 
 iframe {
     border-radius: 1.5em;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     
 }
 
 #frame {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    gap: 25px;
+}
+
+#frame h1 {
+    color: #2e4757;
+    font-size: 46px;
+    font-family: 'Oswald', sans-serif;
 }
 
 @keyframes fadeIn {
